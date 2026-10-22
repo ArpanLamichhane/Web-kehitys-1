@@ -26,8 +26,8 @@ Sovellus toteutetaan HTML:llä, CSS:llä ja natiivilla JavaScriptillä ilman ulk
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää GitHub Pages -osoite tähän](https://yourusername.github.io/todo-lista/)
-- **GitHub-repositorio:** [Lisää repositorion osoite tähän](https://github.com/yourusername/todo-lista)
+- **Julkaistu sovellus:** https://arpanlamichhane.github.io/Web-kehitys-1/Projekti_1/
+- **GitHub-repositorio:** https://github.com/ArpanLamichhane/Web-kehitys-1/tree/main/Projekti_1
 - **Projektin videoesittely:** Lisää videoesittelyn linkki tähän.
 
 ## Tietoja sovelluksesta
