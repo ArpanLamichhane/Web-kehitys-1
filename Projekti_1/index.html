@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiskelu TODO-lista</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <p class="eyebrow">OMA TEHTÄVÄTAULU</p>
+            <h1>TODO-lista</h1>
+            <p>Suunnittele päiväsi ja hoida tehtävät yksi kerrallaan.</p>
+        </header>
+
+        <section class="card">
+            <h2>Lisää uusi tehtävä</h2>
+
+            <form id="taskForm" novalidate>
+                <label for="taskInput">Tehtävän nimi</label>
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Esim. Tee JavaScript-tehtävä"
+                    minlength="3"
+                    maxlength="100"
+                    required
+                >
+                <small id="errorMessage" class="error" aria-live="polite"></small>
+
+                <label for="priority">Tärkeys</label>
+                <select id="priority">
+                    <option value="Normaali">Normaali</option>
+                    <option value="Tärkeä">Tärkeä</option>
+                    <option value="Kiireellinen">Kiireellinen</option>
+                </select>
+
+                <button type="submit" class="add-button">
+                    + Lisää tehtävä
+                </button>
+            </form>
+        </section>
+
+        <section class="task-section">
+            <div class="task-heading">
+                <div>
+                    <h2>Minun tehtäväni</h2>
+                    <p id="taskCounter">0 avointa tehtävää</p>
+                </div>
+            </div>
+
+            <nav class="filters" aria-label="Tehtävien suodatus">
+                <button type="button" class="filter active" data-filter="all">
+                    Kaikki
+                </button>
+                <button type="button" class="filter" data-filter="active">
+                    Avoimet
+                </button>
+                <button type="button" class="filter" data-filter="completed">
+                    Tehdyt
+                </button>
+            </nav>
+
+            <ul id="taskList" class="task-list"></ul>
+
+            <p id="emptyMessage" class="empty-message">
+                Ei vielä tehtäviä. Lisää ensimmäinen tehtäväsi!
+            </p>
+        </section>
+
+        <footer>
+            Pienet askeleet vievät eteenpäin.
+        </footer>
+    </main>
+</body>
+</html>
