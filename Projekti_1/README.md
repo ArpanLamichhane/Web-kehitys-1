@@ -20,8 +20,6 @@ Sovellus toteutetaan HTML:llä, CSS:llä ja natiivilla JavaScriptillä ilman ulk
 - Tehtävien tallentaminen selaimen localStorage-muistiin.
 
 ### Rautalankamalli / luonnos
-toit<img width="1408" height="817" alt="Todolista" src="https://github.com/user-attachments/assets/4593ea80-1299-4e53-a103-a6b79f9cab07" />
-<img width="1408" height="817" alt="Todolista" src="https://github.com/user-attachments/assets/68f4c4b3-e5c4-4d72-a788-8795662f13dd" />
 <img width="1266" height="836" alt="Todolista malli" src="https://github.com/user-attachments/assets/073d9e2e-2aaf-452c-b935-97ec26ded019" />
 
 
