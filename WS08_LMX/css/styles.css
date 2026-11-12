@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf3f8;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #234567;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #2878b5;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #185783;
+}
+
+#weatherdata {
+    background-color: white;
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#weatherdata h2 {
+    color: #2878b5;
+}

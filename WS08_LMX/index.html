@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Säätiedot</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <h1>Helsingin säätiedot</h1>
+
+    <label for="citySelect">Valitse kaupunki:</label>
+    <select id="citySelect">
+        <option value="Helsinki">Helsinki</option>
+        <option value="Vantaa">Vantaa</option>
+        <option value="Espoo">Espoo</option>
+        <option value="Tampere">Tampere</option>
+        <option value="Turku">Turku</option>
+    </select>
+
+    <h3>Hae toinen kaupunki:</h3>
+
+    <input type="text" id="cityInput" placeholder="Kirjoita kaupungin nimi">
+    <button id="searchCity">Hae säätiedot</button>
+
+    <button id="fetchWeather">Hae valitun kaupungin sää</button>
+
+    <div id="weatherdata">
+        Säätiedot näkyvät tässä.
+    </div>
+
+</body>
+</html>
