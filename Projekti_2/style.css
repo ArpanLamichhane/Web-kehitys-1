@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #11111b;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #502080, #17172d);
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #c7a4ff;
+}
+
+.search-section {
+    text-align: center;
+    padding: 25px;
+    background: #1e1e32;
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 13px;
+    width: 65%;
+    max-width: 400px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background: #292941;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #9147ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #7130d4;
+}
+
+.artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.album-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.album-card {
+    background: #202036;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    background: #30304c;
+}
+
+.album-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.album-card h3 {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.album-card p {
+    color: #aaa;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+#albumContent {
+    background: #202036;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#albumContent img {
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#albumContent ol {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+#message {
+    margin: 20px 0;
+    color: #c7a4ff;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #999;
+    background: #1b1b2c;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
