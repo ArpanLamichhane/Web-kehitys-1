@@ -17,13 +17,10 @@ Sovelluksessa on selkeä ja responsiivinen käyttöliittymä.
 Esimerkki kuvan lisäämisestä:
 
 Verkkolinkit
-Julkaistu sovellus: Lisää tähän GitHub Pages -osoite
-GitHub-repositorio: Lisää tähän repositorion osoite
-Projektin videoesittely: Lisää tähän videon osoite
-Tietoja sovelluksesta
-[Projektin nimi] on verkkosovellus, joka ...
+Julkaistu sovellus: https://arpanlamichhane.github.io/Web-kehitys-1/Projekti_2/
+GitHub-repositorio: https://github.com/ArpanLamichhane/Web-kehitys-1/
 
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+Tietoja sovelluksesta
 Music Explorer on verkkosovellus, jonka avulla käyttäjä voi löytää artisteja ja tutustua heidän musiikkiinsa.
 Sovelluksen etusivulla käyttäjä voi hakea artisteja tai valita artistin tarjolla olevista vaihtoehdoista. Artistin valitsemisen jälkeen sovellus näyttää artistin tietoja ja suosituimpia albumeita.
 Albumia klikkaamalla käyttäjä voi tarkastella albumin kappaleita. Albumien kansikuvat ja musiikkitiedot haetaan Last.fm API -rajapinnasta.
@@ -49,43 +46,30 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 Esimerkki kuvan lisäämisestä:
 
 Kuvakaappaus sovelluksesta
+<img width="1512" height="854" alt="Näyttökuva 2026-11-12 kello 11 21 40" src="https://github.com/user-attachments/assets/13566dc5-3310-4320-9e00-14e27b7dbc99" />
 
 Tunnetut virheet / puutteet
-
 Ei tunnettuja virheitä.
 
 Oma arvio ja oppimisen reflektointi
-
 Projektin tekeminen auttoi minua kehittämään verkkokehityksen taitojani ja ymmärtämään paremmin HTML, CSS ja JavaScriptin käyttöä.
-
-Missä onnistuin?
-
 Onnistuin luomaan musiikkiin liittyvän verkkosovelluksen, jossa käyttäjä voi etsiä artisteja ja tarkastella heidän albumeitaan. Onnistuin myös yhdistämään sovelluksen Last.fm API -rajapintaan.
-
-Mikä oli haastavaa?
-
 Haastavinta oli API-rajapinnan käyttäminen ja ulkopuolelta haettujen tietojen käsittely JavaScriptillä. Myös eri toimintojen yhdistäminen samaan käyttöliittymään vaati harjoittelua.
 
 Mitä parantaisin, jos aikaa olisi enemmän?
-
 Lisäisin sovellukseen uusia ominaisuuksia, kuten mahdollisuuden tallentaa suosikkiartisteja ja parantaa hakutoimintoa. Lisäksi kehittäisin käyttöliittymää ja lisäisin uusia tapoja tutustua musiikkiin.
 
 Mitä opin?
-
 Opin lisää HTML, CSS ja JavaScriptin käytöstä. Erityisesti opin, miten API-rajapinnasta voidaan hakea tietoa ja näyttää se verkkosivulla. Opin myös käsittelemään JSON-muotoista dataa ja päivittämään verkkosivun sisältöä DOM-skriptauksen avulla.
 
 Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-
 Haluaisin oppia lisää API-rajapinnoista, JavaScriptistä ja verkkosovellusten kehittämisestä. Haluaisin myös ymmärtää paremmin, miten ulkoisia palveluita voidaan yhdistää omiin sovelluksiin.
 
 Oma arvio projektista: 8/10 pistettä.
 
 Lähteet ja kiitokset
-
 Last.fm API – musiikkitietojen hakemiseen.
-
 MDN Web Docs – HTML-, CSS- ja JavaScript-dokumentaatio.
-
 Laurean Web Development -kurssin materiaalit.
 
 Käytetty tekoälytyökalu: ChatGPT.
